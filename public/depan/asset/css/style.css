@@ -1,0 +1,527 @@
+body{
+    font-family: "monstserrat", 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#topbar {
+    background-color: #ac2222;
+    color: #fff;
+    height: 50px;
+    line-height: 50px;
+}
+
+.top-contact, .sosmed {
+    list-style: none;
+    padding: 0;
+}
+
+
+#topbar li {
+    display: inline-block;
+}
+
+#topbar li a{
+    color: #fff;
+    display: inline-block;
+    padding: 0 20px;
+    text-decoration: none;
+}
+
+#topbar li a i{
+    color: #E5C100;
+    margin-right: 5px;
+}
+
+#topbar .sosmed li a {
+    padding: 0 5px;
+    color: #fff;
+}
+
+#topbar .sosmed li a i{
+    color: #fff;
+}
+
+/* header */
+
+header{
+    padding: 30px 0;
+}
+
+.brand{
+    display: flex;
+}
+
+.brand img{
+    margin-right: 10px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+.brand .brand-name h1 {
+    font-size: 25px;
+    color: #ac2222;
+    text-transform: uppercase;
+}
+
+.brand .brand-name h3 {
+    font-size: 18px;
+    font-family: Raleway, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #888888;
+}
+
+.pembungkus-searchbox{
+    display: flex;
+    align-items: center;
+}
+
+.searchbox{
+    width: 100%;
+}
+
+.btn.btn-utama{
+    background-color: #ac2222;
+    color: #E5C100;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.btn.btn-utama:hover{
+    background-color: #920c0c;
+}
+
+/* navbar menu */
+.navbar{
+    padding: 0;
+    border-bottom: 5px solid #E5C100;
+}
+
+.bg-biru{
+    background-color: #ac2222 !important;
+    color: #fff;
+}
+
+.nav-link{
+    color: #fff;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+.nav-item .active{
+    background-color: #E5C100;
+    color: #ac2222;
+    
+}
+
+.nav-item{
+    padding: 0 20px ;
+}
+
+li.nav-item.active a{
+    color: #ac2222;
+}
+
+.navbar-dark .navbar-nav .navbar-link {
+    padding: 15px 20px;
+    display: inline-block;
+}
+
+/* untuk hero */
+
+.c-item{
+    height: 480px;
+}
+
+.c-img{
+    height: 100%;
+    object-fit: cover;
+}
+
+.carousel-caption h5 {
+    color: #E5C100;
+}
+
+/* untuk sambutan */
+
+#sambutan{
+    margin: 60px 0;
+}
+
+#sambutan h2 {
+    color: #ac2222;
+    font-size: 28px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+#sambutan h3 {
+    color: #ac2222;
+    text-transform: uppercase;
+    font-size: 28px;
+    font-weight: 500;
+}
+
+#sambutan p {
+    font-size: 14px;
+    line-height: 28px;
+    font-size: 500;
+}
+
+/* prestasi */
+
+#prestasi{
+    min-height: 250px;
+}
+
+.section-item{
+    margin: 70px 0;
+   box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+
+}
+
+.section-item-thumbnail{
+    max-width: 100%;
+    width: 100%;
+    object-fit: cover;
+    max-height: 250px;
+}
+
+.section-title{
+    margin-bottom: 80px;
+    text-align: center ;
+}
+
+.section-title h2{
+    position: relative;
+    display: inline-block;
+    margin: 0 auto;
+    font-size: 28px;
+    text-transform: uppercase;
+    color: #ac2222;
+    font-weight: 600;
+}
+
+.section-title h2:after{
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 3px;
+    background-color: #E5C100;
+    bottom: -20px;
+    left: 0;
+}
+
+.section-item-title{
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 20px;
+    padding: 20px 0;
+}
+
+.section-item-title h3{
+    font-size: 18px;
+    color: #ac2222;
+    line-height: 25px;
+    font-weight: 600;
+    padding-right: 20px;
+}
+
+.section-item-title span{
+    font-size: 12px;
+    color: #666;
+    font-weight: 500;
+}
+
+.section-item-title span i{
+    margin-right: 5px;
+}
+
+.section-item-title span:first-of-type{
+    margin-right: 15px;
+}
+
+.section-item-body p{
+    font-size: 12px;
+    line-height: 25px;
+    color: #666;
+}
+
+/* tombol selanjutnya */
+
+.section-title{
+    margin: 50px 0;
+}
+
+.tombol-selengkapnya{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.btn.btn-more{
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #ac2222;
+    text-align: center;
+    display: inline-block;
+    margin: 0 auto;
+    border: 2px solid #ac2222;
+    padding: 10px 30px;
+    border-radius: 0;
+}
+
+.btn.btn-more:hover{
+    background-color: #920c0c;
+    color: #ddd;
+}
+
+/* untuk alumni */
+
+#alumni {
+    background-color: #ac2222;
+}
+
+#alumni .section-title h2{
+    color: #fff;
+}
+.testimonials{
+    max-width: 1000px;
+    padding: 0 15px 50px;
+    margin: 0 auto 80px auto;
+}
+.single-item{
+    background: #fff;
+    color: #111;
+    padding: 15px;
+    margin: 50px 15px;
+}
+.profile{
+    margin-bottom: 30px;
+    text-align: center;    
+}
+.img-area {
+	margin: 0 15px 15px 15px;
+}
+.img-area img {
+	height: 200px;
+	width: 200px;
+	border-radius: 50%;
+	border: 7px solid #ac2222;
+}
+.content{
+    font-size: 18px;
+}
+.content p {
+	text-align: justify;
+}
+.content p span {
+	font-size: 48px;
+	margin-right: 20px;
+    color: #ac2222;
+}
+.socials i {
+	margin-right: 25px;
+}
+.bio h4 {
+	font-family: 'Berkshire Swash', cursive;
+}
+.carousel-control-next-icon, .carousel-control-prev-icon {
+	background-color: #ac2222;
+}
+
+/* untuk galeri */
+
+.gallery-item {
+	position: relative;
+	box-shadow: 0 5px 10px 1px rgba(0, 0, 0, 0.5);
+}
+/* overlay */
+
+.gallery-item img {
+	width: 100%;
+    height: 240px;
+}
+.gallery-item .overlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.9);
+	color: #fff;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	padding: 20px;
+	z-index: 1;
+	opacity: 0;
+	transition: opacity 0.5s ease;
+}
+.gallery-item:hover .overlay {
+	opacity: 1;
+}
+.gallery-item .overlay h3 {
+	font-size: 24px;
+	margin-bottom: 10px;
+}
+.gallery-item .overlay p {
+	font-size: 16px;
+	margin-bottom: 20px;
+}
+.gallery-item .overlay .btn {
+	font-size: 16px;
+}
+.modal {
+	background: rgba(0, 0, 0, 0.8);
+}
+@media (max-width: 991px) {
+	.gallery-item {
+		margin-bottom: 30px;
+	}
+}
+
+/* untuk footer */
+
+footer {
+	background: #ac2222;
+	padding: 86px 0;
+}
+.single-content {
+	text-align: center;
+	padding: 115px 0;
+}
+.single-box p {
+	color: #fff;
+	line-height: 1.9;
+}
+.single-box h3 {
+	font-size: 16px;
+	font-weight: 700;
+	color: #fff;
+}
+.single-box .card-area i {
+	color: #ffffff;
+	font-size: 20px;
+	margin-right: 10px;
+}
+.single-box ul {
+	list-style: none;
+	padding: 0;
+}
+.single-box ul li a {
+	text-decoration: none;
+	color: #fff;
+	line-height: 2.5;
+	font-weight: 100;
+}
+.single-box h2 {
+	color: #fff;
+	font-size: 20px;
+	font-weight: 700;
+}
+#basic-addon2 {
+	background: #fe1e4f;
+	color: #fff;
+}
+.socials i {
+	font-size: 18px;
+	margin-right: 15px;
+}
+@media (max-width: 767px) {
+	.single-box {
+		margin-bottom: 50px;
+	}
+}
+@media (min-width: 768px) and (max-width: 991px) {
+	.single-box {
+		margin-bottom: 50px;
+	}
+}
+
+.form-area {
+	padding-top: 7%;
+}
+.row.single-form {
+	box-shadow: 0 2px 20px -5px rgba(0,0,0,0.5);
+}
+.left {
+	background: #ac2222;
+	padding: 200px 98px;
+}
+.left h2 {
+	font-family: poppins;
+	color: #fff;
+	font-weight: 700;
+	font-size: 48px;
+}
+.left h2 span {
+	font-weight: 100;
+}
+.single-form{
+    background: #fff;
+}
+.right {
+	padding: 70px 100px;
+	position: relative;
+}
+.right i {
+	position: absolute;
+	font-size: 80px;
+	left: -27px;
+	top: 40%;
+	color: #fff;
+}
+.form-control {
+	border: 2px solid #000;
+}
+.right button {
+	border: none;
+	border-radius: 0;
+	background: #252525;
+	width: 180px;
+	color: #fff;
+	padding: 15px 0;
+	display: inline-block;
+	font-size: 16px;
+	margin-top: 20px;
+	cursor: pointer;
+}
+.right button:hover{
+    background-color: #252525;
+}
+
+
+/*responsive*/
+
+@media (min-width:768px) and (max-width:991px){
+    .right i {
+	top: -52px;
+	transform: rotate(90deg);
+	left: 50%;
+}
+}
+
+@media (max-width:767px){
+    .left {
+  padding: 90px 15px;
+  text-align: center;
+}
+.left h2 {
+  font-size: 25px;
+}
+.right {
+  padding: 25px;
+}
+.right i {
+  top: -52px;
+  transform: rotate(90deg);
+  left: 46%;
+}
+    .right button {
+	width: 150px;
+	padding: 12px 0;
+}
+    
+}
